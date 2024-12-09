@@ -1,0 +1,1 @@
+This repository demonstrates a common SQL error: using a reserved keyword as a column alias. The `bug.sql` file contains the erroneous query, while `bugSolution.sql` provides the corrected version.  The issue arises because many SQL dialects treat "date" as a reserved keyword, and thus, cannot be used directly as an alias without appropriate quoting or escaping.
